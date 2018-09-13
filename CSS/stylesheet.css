@@ -1,0 +1,192 @@
+
+/*
+ * For paragraph
+ */
+p 
+{
+	font-family:Bookman Old Style; 
+	font-size:16px; 
+	margin: 10px 10px 10px 10px;
+	text-align: justify;
+}
+
+*
+{
+	margin:0px;
+}
+
+/*
+background-color:#6E3667;
+*/
+body
+{
+	
+	background-image:url(../images/Background2.jpg);
+}
+/* 
+ * For changing the background color of header.
+ */
+.header
+{
+	background-color: black; 
+	height: 250px;
+}
+
+/* 
+ * Defining the size of image of logo of header of navigation bar.
+ */			
+.logo
+{
+	width:375px; 
+	height:170px; 
+	float:left;
+}
+.slider-container
+{
+	width:97%;
+	background-color:white;
+	margin:auto;
+	padding:10px;
+	text-align:center;
+}
+/* 
+ * For changing the colour header of selected webpage in nav bar.
+ */
+#selectedHeader
+{
+	color: #F87531;
+	margin-left:6px;
+}
+
+/* 
+ * For changing the colour of header of nav bar in case of hover.
+ */
+.navLink:hover
+{
+	color: #06F;
+	padding-left:6px;
+}
+
+/* 
+ * For changing the background colour of header of selected webpage in nav bar.
+ */
+.navBackgroundHeader
+{
+	background-color:black; 
+	height:100px;
+}
+
+/* 
+ * For defining the text style and colour of header of navigation bar.
+ */
+.headerNavDecoration
+{
+	text-decoration:none; 
+	color:white; 
+	font-size:25px;
+	font-family: AR JULIAN;
+}
+
+/* 
+ * Defining the style of copyright text of footer.
+ */
+.copyright
+{
+	color:white;
+	font-size:15px; 
+	float:right; 
+	padding-right:20px;
+	margin-top:20px;
+}
+.note
+{
+	color:white;
+	font-size:14px; 
+	float:right; 
+	padding-left:20px;
+	margin-top:10px;
+}
+
+/* 
+ * For changing the background colour of header of selected webpage in nav bar.
+ */
+.navBackgroundFooter
+{
+	background-color:black; 
+	width:1200px; 
+	height:80px;
+}
+
+/* 
+ * For defining the text style and colour of header of navigation bar.
+ */
+.footerNavDecoration
+{
+	text-decoration:none; 
+	color:white; 
+	font-size:15px;
+	font-family: AR JULIAN;
+	padding-left:15px;
+}
+
+/* 
+ * For changing the colour footer of selected webpage in nav bar.
+ */
+#selectedFooter
+{
+	color:#F87531;
+	margin-left:6px;
+}
+.nameForm 
+{
+		font-family:Comic Sans MS;
+		color:red;
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#remittance 
+{
+    top: 22px;
+    background-color: #4CAF50;
+}
+
+#smebanking 
+{
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#businesshours 
+{
+    top: 160px;
+    background-color: #f44336;
+}
+
+#ournetwork 
+{
+    top: 240px;
+    background-color: #555
+}
+.container2 {
+	width:100
+	margin:auto;
+	padding:0px;
+}
+.text2 {
+		font-family:Comic Sans MS;
+		
+}
